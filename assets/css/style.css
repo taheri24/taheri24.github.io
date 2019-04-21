@@ -951,7 +951,8 @@ body .shape-top, body .shape-bottom {
 .about .section-wrapper .title h2 {
     font-weight: 300;
     margin-bottom: 15px;
-    line-height: 40px;
+    line-height: 35px;
+    font-size:32px !important;
 }
 .about .section-wrapper .title h2 span {
     font-weight: 700; 
