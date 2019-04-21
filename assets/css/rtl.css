@@ -1,0 +1,237 @@
+@font-face{
+	font-family:vazir;
+	font-style:normal;
+	font-weight:100;
+	src:url(../fonts/Vazir-Thin-FD.eot);
+	src:url(../fonts/Vazir-Thin-FD.eot?#iefix) format("embedded-opentype"),url(../fonts/Vazir-Thin-FD.woff2) format("woff2"),url(../fonts/Vazir-Thin-FD.woff) format("woff"),url(../fonts/Vazir-Thin-FD.ttf) format("truetype");
+}
+@font-face{
+	font-family:vazir;
+	font-style:normal;
+	font-weight:300;
+	src:url(../fonts/Vazir-Light-FD.eot);
+	src:url(../fonts/Vazir-Light-FD.eot?#iefix) format("embedded-opentype"),url(../fonts/Vazir-Light-FD.woff2) format("woff2"),url(../fonts/Vazir-Light-FD.woff) format("woff"),url(../fonts/Vazir-Light-FD.ttf) format("truetype");
+}
+@font-face{
+	font-family:vazir;
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/Vazir-FD.eot);
+	src:url(../fonts/Vazir-FD.eot?#iefix) format("embedded-opentype"),url(../fonts/Vazir-FD.woff2) format("woff2"),url(../fonts/Vazir-FD.woff) format("woff"),url(../fonts/Vazir-FD.ttf) format("truetype");
+}
+@font-face{
+	font-family:vazir;
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/Vazir-Medium-FD.eot);
+	src:url(../fonts/Vazir-Medium-FD.eot?#iefix) format("embedded-opentype"),url(../fonts/Vazir-Medium-FD.woff2) format("woff2"),url(../fonts/Vazir-Medium-FD.woff) format("woff"),url(../fonts/Vazir-Medium-FD.ttf) format("truetype");
+}
+@font-face{
+	font-family:vazir;
+	font-style:normal;
+	font-weight:900;
+	src:url(../fonts/Vazir-Bold-FD.eot);
+	src:url(../fonts/Vazir-Bold-FD.eot?#iefix) format("embedded-opentype"),url(../fonts/Vazir-Bold-FD.woff2) format("woff2"),url(../fonts/Vazir-Bold-FD.woff) format("woff"),url(../fonts/Vazir-Bold-FD.ttf) format("truetype");
+}
+html,body{
+	direction:rtl
+}
+.main-menu li a {
+    font-family: vazir !important
+}
+.blog-page .section-wrapper .blog.blog-single .section-wrapper .post-item .post-inner .post-content .content-part .entry-content ul li {
+    font-family: vazir !important
+}
+.blog-page .section-wrapper .blog.blog-single .section-wrapper .comments .comment-list .comment .com-content .com-title .com-title-meta span {
+    font-family: vazir !important
+}
+.portfolio .portfolio-top .portfolio-right ul li {
+    font-family: vazir !important
+}
+.pricing .section-wrapper .pricing-item .pricing-inner .pricing-content .text-center .btn {
+    font-family: vazir !important
+}
+.testimonial .section-wrapper .testimonial-slider .testimonial-item .testimonial-inner .testimonial-head .name-des h6 {
+    font-family: vazir !important
+}
+.blog .section-wrapper .post-item .post-inner .post-content .content-part .entry-header .entry-meta .byline {
+    font-family: vazir !important
+}
+.blog .section-wrapper .post-item .post-inner .post-content .content-part .entry-header .entry-meta .posted-on {
+    font-family: vazir !important
+}
+.btn {
+    font-family: vazir !important
+}
+.category {
+    font-family: vazir !important
+}
+.mobile-menu-area .mobile-menu-area-inner .m-menu li a {
+    font-family: vazir !important
+}
+html {
+    font-family: vazir !important
+}
+
+body {
+    font-family: vazir !important
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: vazir !important
+}
+body,
+button,
+input,
+select,
+textarea {
+    font-family: vazir !important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: vazir !important
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: vazir !important
+}
+h5 {
+    font-family: vazir !important
+}
+p {
+    font-family: vazir !important
+}
+blockquote p {
+    font-family: vazir !important
+}
+pre {
+    font-family: vazir !important
+}
+.comment-metadata .fn a {
+      font-family: vazir !important
+}
+.comment-metadata time {
+    font-family: vazir !important
+}
+::-webkit-input-placeholder {
+    font-family: vazir !important
+}
+.btn img {
+    margin-right: 24px;
+	margin-left:unset !important;
+}
+.banner-bottom .bottom-wrapper .post-item .post-thumb {
+    padding-left: 15px;
+    padding-right: unset !important;
+}
+.about .section-wrapper .about-right .about-item .about-content ul li .info p::after {
+    position: unset !important;
+    content: unset !important;
+    top: unset !important;
+    left: unset !important;
+    font-weight: unset !important;
+    color: unset !important;
+    transform: unset !important;
+}
+.about .section-wrapper .about-right .about-item .about-content ul li .info p::before {
+    position: absolute;
+    content: ":";
+    top: 50%;
+    right: 0;
+    font-weight: 700;
+    color: #000;
+    transform: translateY(-50%);
+}
+.about .section-wrapper .about-right .about-item .about-content ul li .info p {
+    padding-left: unset !important;
+    padding-right: 20px;
+}
+.experience .section-wrapper .exp-item .exp-inner .exp-thumb .exp-cata {
+    right: unset !important;
+    left: 0;
+}
+.experience .section-wrapper .exp-item .exp-inner .exp-thumb .exp-cata span::before {
+
+    position: unset !important;
+    content: unset !important;
+    width: unset !important;
+    height: unset !important;
+    left: unset !important;
+    top: unset !important;
+    transform: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    border-top: unset !important;
+
+}
+.experience .section-wrapper .exp-item .exp-inner .exp-thumb .exp-cata span::after {
+
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fed643;
+
+}
+.experience .section-wrapper .exp-item .exp-inner .exp-thumb .exp-cata span {
+    background-image: linear-gradient(to right, #ff4181, #fed643) !important;
+}
+.experience .section-wrapper .exp-item .exp-inner .exp-thumb h6{
+	padding-right: 20px;
+	padding-left: unset !important;
+}
+.services .section-wrapper .service-item:nth-child(even) .service-inner {
+	margin:15px;
+    margin-left: 0 !important; 
+    margin-right: 15px !important; 
+}
+.services .section-wrapper .service-item:nth-child(odd) .service-inner {
+	margin:15px;
+    margin-right: 0 !important; 
+    margin-left: 15px !important; 
+}
+.experience .section-wrapper .exp-item:nth-child(2n+1) .exp-inner {
+    margin:15px;
+    margin-right: 0 !important; 
+    margin-left: 15px !important; 
+}
+.experience .section-wrapper .exp-item:nth-child(2n) .exp-inner {
+	margin:15px;
+    margin-left: 0 !important; 
+    margin-right: 15px !important; 
+}
+.about .section-wrapper .about-left {
+    margin-right: unset !important;
+    margin-left: 15px;
+}
+.about .section-wrapper .about-right {
+    margin-left: unset !important;
+    margin-right: 15px;
+}
+.services .section-wrapper .service-item .service-inner .service-content {
+    padding-right: 32px !important;
+    padding-left: 0 !important;
+}
+.services .section-wrapper .service-item .service-inner::before{
+	background-size:cover !important
+}
+.services .section-wrapper .service-item .service-inner .service-content ul li::before{
+	left:unset !important;
+	right:0
+}
+.services .section-wrapper .service-item .service-inner .service-content ul li {
+	padding-left: 0 !important;
+	padding-right: 20px !important;
+}
