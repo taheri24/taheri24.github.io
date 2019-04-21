@@ -69,6 +69,7 @@
     padding: 18px 10px;
     display: inline-block;
     margin: 0 5px;
+    direction: ltr;
     font-size: 17px;
     font-weight: 400;
     position: relative;
