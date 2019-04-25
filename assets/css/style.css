@@ -183,7 +183,7 @@
         background-repeat: no-repeat;
         width: 580px;
         height: 500px;
-        animation: animate1 20s infinite linear; 
+       
     } 
 }
 .banner .banner-area .banner-thumb img {
@@ -1163,6 +1163,7 @@ body .shape-top, body .shape-bottom {
 }
 .services .section-wrapper .service-item {
   width: 100%; 
+
 }
 @media (min-width: 992px) {
     .services .section-wrapper .service-item {
@@ -1171,9 +1172,17 @@ body .shape-top, body .shape-bottom {
 }
 .services .section-wrapper .service-item:nth-child(even) .service-inner {
     margin-left: 0; 
+
 }
 .services .section-wrapper .service-item:nth-child(odd) .service-inner {
     margin-right: 0; 
+}
+.service-inner{ 
+min-height: 400px;
+border:1px solid #777;
+}
+.service-content{
+    margin-top:-200px;
 }
 .services .section-wrapper .service-item:nth-child(2) .service-inner {
     background-image: linear-gradient(to top, #645cff, #ff5b8a);
@@ -1181,27 +1190,21 @@ body .shape-top, body .shape-bottom {
 .services .section-wrapper .service-item:nth-child(2) .service-inner .service-content ul li::before {
     border-color: #ff4181; 
 }
-.services .section-wrapper .service-item:nth-child(2) .service-inner .service-thumb {
-    animation: animate1 10s infinite linear; 
-}
+ 
 .services .section-wrapper .service-item:nth-child(3) .service-inner {
     background-image: linear-gradient(to top, #cc00ff, #8484fb); 
 }
 .services .section-wrapper .service-item:nth-child(3) .service-inner .service-content ul li::before {
     border-color: #e7b53f; 
 }
-.services .section-wrapper .service-item:nth-child(3) .service-inner .service-thumb {
-    animation: animate1 13s infinite linear; 
-}
+ 
 .services .section-wrapper .service-item:nth-child(4) .service-inner {
     background-image: linear-gradient(to top, #81dcfd, #f4d63d);
 }
 .services .section-wrapper .service-item:nth-child(4) .service-inner .service-content ul li::before {
     border-color: #645cff; 
 }
-.services .section-wrapper .service-item:nth-child(4) .service-inner .service-thumb {
-    animation: animate1 15s infinite linear; 
-}
+ 
 .services .section-wrapper .service-item .service-inner {
     margin: 15px 0;
     border-radius: 1px;
@@ -1244,6 +1247,9 @@ body .shape-top, body .shape-bottom {
 .services .section-wrapper .service-item .service-inner .service-content h3 {
     margin: 0;
     margin-bottom: 5px;
+    width:200%;
+    margin-top:50px;
+
 }
 .services .section-wrapper .service-item .service-inner .service-content p {
     margin-bottom: 10px; 
@@ -1251,6 +1257,7 @@ body .shape-top, body .shape-bottom {
 .services .section-wrapper .service-item .service-inner .service-content ul {
     margin: 0;
     padding: 0; 
+    width:150%;
 }
 .services .section-wrapper .service-item .service-inner .service-content ul li {
     list-style: none;
@@ -1274,7 +1281,7 @@ body .shape-top, body .shape-bottom {
     position: relative;
     padding-right: 10px;
     text-align: center;
-    animation: animate1 8s infinite linear;
+ 
 }
 @media (min-width: 576px) {
     .services .section-wrapper .service-item .service-inner .service-thumb {
