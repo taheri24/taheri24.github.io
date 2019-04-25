@@ -1179,10 +1179,17 @@ body .shape-top, body .shape-bottom {
 }
 .service-inner{ 
 min-height: 400px;
-border:1px solid #777;
+max-height: 400px;
+border:1px solid #ccc;
+}
+.exp-inner{
+    min-height: 230px;
 }
 .service-content{
-    margin-top:-200px;
+    margin-top:-140px !important;
+    min-height: 300px;
+    max-height: 300px;
+    
 }
 .services .section-wrapper .service-item:nth-child(2) .service-inner {
     background-image: linear-gradient(to top, #645cff, #ff5b8a);
@@ -1258,6 +1265,7 @@ border:1px solid #777;
     margin: 0;
     padding: 0; 
     width:150%;
+    margin-top:30px;
 }
 .services .section-wrapper .service-item .service-inner .service-content ul li {
     list-style: none;
